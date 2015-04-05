@@ -23212,9 +23212,9 @@ function() {
 				basePath: "groups",
 				container: "#forums-pjax",
 				binds: {
-					sort: Featurette.get("sort"),
+					sort: Featurette.get("s"),
 					topic: Featurette.get("topic"),
-					search: $("#q"),
+					q: $("#q"),
 					stage: $("#stage_id"),
 					syllabus: $("#syllabus_id"),
 					video: $("#video_id"),
