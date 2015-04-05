@@ -23209,7 +23209,7 @@ function() {
 		}
 		return n(i, t), i.prototype.listeners = function() {
 			return this.filters = new Filters({
-				basePath: "forum",
+				basePath: "groups",
 				container: "#forums-pjax",
 				binds: {
 					sort: Featurette.get("sort"),
