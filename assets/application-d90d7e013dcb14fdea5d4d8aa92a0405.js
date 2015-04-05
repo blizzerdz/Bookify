@@ -23214,7 +23214,7 @@ function() {
 				binds: {
 					sort: Featurette.get("sort"),
 					topic: Featurette.get("topic"),
-					q: $("#qs"),
+					search: $("#q"),
 					stage: $("#stage_id"),
 					syllabus: $("#syllabus_id"),
 					video: $("#video_id"),
