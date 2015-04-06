@@ -23214,8 +23214,9 @@ function() {
 				binds: {
 					?type= Featurette.get("sort"),
 					topic: Featurette.get("topic"),
-					q: $("#q")
+					q: $("#q"),
 					
+					"code-challenge": $("#code-challenge_id")
 				}
 			}), this.on("click", ".form-search .search-button", function(t) {
 				return function(e) {
