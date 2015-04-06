@@ -23215,7 +23215,10 @@ function() {
 					?type= Featurette.get("sort"),
 					topic: Featurette.get("topic"),
 					q: $("#q"),
-					
+					stage: $("#stage_id"),
+					syllabus: $("#syllabus_id"),
+					video: $("#video_id"),
+					quiz: $("#quiz_id"),
 					"code-challenge": $("#code-challenge_id")
 				}
 			}), this.on("click", ".form-search .search-button", function(t) {
