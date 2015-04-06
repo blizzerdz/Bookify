@@ -23212,7 +23212,7 @@ function() {
 				basePath: "groups",
 				container: "#forums-pjax",
 				binds: {
-					type: Featurette.get("sort"),
+					type: Featurette.get("type"),
 					
 					"code-challenge": $("#code-challenge_id")
 				}
@@ -23228,7 +23228,7 @@ function() {
 				}
 			}(this))
 		}, i.prototype.deselectAll = function(t) {
-			return $("").not("" + $(t.currentTarget).data("filter-tag-type") + "_id").val("")
+			return $("#stage_id, #syllabus_id, #video_id, #quiz_id, #code-challenge_id").not("" + $(t.currentTarget).data("filter-tag-type") + "_id").val("")
 		}, i
 	}(Treehouse.View))
 }.call(this),
