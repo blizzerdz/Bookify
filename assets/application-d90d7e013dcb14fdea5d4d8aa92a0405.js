@@ -23212,14 +23212,10 @@ function() {
 				basePath: "groups",
 				container: "#forums-pjax",
 				binds: {
-					type: Featurette.get("sort"),
+					?type= Featurette.get("sort"),
 					topic: Featurette.get("topic"),
-					q: $("#q"),
-					stage: $("#stage_id"),
-					syllabus: $("#syllabus_id"),
-					video: $("#video_id"),
-					quiz: $("#quiz_id"),
-					"code-challenge": $("#code-challenge_id")
+					q: $("#q")
+					
 				}
 			}), this.on("click", ".form-search .search-button", function(t) {
 				return function(e) {
