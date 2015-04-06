@@ -23212,7 +23212,7 @@ function() {
 				basePath: "groups",
 				container: "#forums-pjax",
 				binds: {
-					type: Featurette.get("type"),
+					type: Featurette.get("sort"),
 					
 					"code-challenge": $("#code-challenge_id")
 				}
